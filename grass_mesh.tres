@@ -1,0 +1,13 @@
+[gd_resource type="PlaneMesh" load_steps=3 format=3 uid="uid://8nr2p53birpo"]
+
+[ext_resource type="Shader" path="res://grass_shell.gdshader" id="1_2jxx6"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_7pdtc"]
+render_priority = 0
+shader = ExtResource("1_2jxx6")
+shader_parameter/base_color = Color(0.0117647, 0.0352941, 0.00392157, 1)
+shader_parameter/tip_color = Color(0.435294, 0.592157, 0.262745, 1)
+shader_parameter/pixel_size = 0.02
+
+[resource]
+material = SubResource("ShaderMaterial_7pdtc")

@@ -1,0 +1,95 @@
+[gd_scene load_steps=3 format=3 uid="uid://kqbfd1mgybxc"]
+
+[ext_resource type="PlaneMesh" uid="uid://8nr2p53birpo" path="res://grass_mesh.tres" id="1_hy33b"]
+[ext_resource type="Script" path="res://auto_grass_shell.gd" id="2_2pgn7"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.183, 0, 0.247)
+mesh = ExtResource("1_hy33b")
+script = ExtResource("2_2pgn7")
+height = 0.1
+metadata/_edit_group_ = true
+
+[node name="@MeshInstance3D@77079" type="MeshInstance3D" parent="MeshInstance3D"]
+instance_shader_parameters/height = 0.0
+mesh = ExtResource("1_hy33b")
+
+[node name="@MeshInstance3D@77080" type="MeshInstance3D" parent="MeshInstance3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.00625, 0)
+instance_shader_parameters/height = 0.0625
+mesh = ExtResource("1_hy33b")
+
+[node name="@MeshInstance3D@77081" type="MeshInstance3D" parent="MeshInstance3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0125, 0)
+instance_shader_parameters/height = 0.125
+mesh = ExtResource("1_hy33b")
+
+[node name="@MeshInstance3D@77082" type="MeshInstance3D" parent="MeshInstance3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.01875, 0)
+instance_shader_parameters/height = 0.1875
+mesh = ExtResource("1_hy33b")
+
+[node name="@MeshInstance3D@77083" type="MeshInstance3D" parent="MeshInstance3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.025, 0)
+instance_shader_parameters/height = 0.25
+mesh = ExtResource("1_hy33b")
+
+[node name="@MeshInstance3D@77084" type="MeshInstance3D" parent="MeshInstance3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.03125, 0)
+instance_shader_parameters/height = 0.3125
+mesh = ExtResource("1_hy33b")
+
+[node name="@MeshInstance3D@77085" type="MeshInstance3D" parent="MeshInstance3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0375, 0)
+instance_shader_parameters/height = 0.375
+mesh = ExtResource("1_hy33b")
+
+[node name="@MeshInstance3D@77086" type="MeshInstance3D" parent="MeshInstance3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.04375, 0)
+instance_shader_parameters/height = 0.4375
+mesh = ExtResource("1_hy33b")
+
+[node name="@MeshInstance3D@77087" type="MeshInstance3D" parent="MeshInstance3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.05, 0)
+instance_shader_parameters/height = 0.5
+mesh = ExtResource("1_hy33b")
+
+[node name="@MeshInstance3D@77088" type="MeshInstance3D" parent="MeshInstance3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.05625, 0)
+instance_shader_parameters/height = 0.5625
+mesh = ExtResource("1_hy33b")
+
+[node name="@MeshInstance3D@77089" type="MeshInstance3D" parent="MeshInstance3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0625, 0)
+instance_shader_parameters/height = 0.625
+mesh = ExtResource("1_hy33b")
+
+[node name="@MeshInstance3D@77090" type="MeshInstance3D" parent="MeshInstance3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.06875, 0)
+instance_shader_parameters/height = 0.6875
+mesh = ExtResource("1_hy33b")
+
+[node name="@MeshInstance3D@77091" type="MeshInstance3D" parent="MeshInstance3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.075, 0)
+instance_shader_parameters/height = 0.75
+mesh = ExtResource("1_hy33b")
+
+[node name="@MeshInstance3D@77092" type="MeshInstance3D" parent="MeshInstance3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.08125, 0)
+instance_shader_parameters/height = 0.8125
+mesh = ExtResource("1_hy33b")
+
+[node name="@MeshInstance3D@77093" type="MeshInstance3D" parent="MeshInstance3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0875, 0)
+instance_shader_parameters/height = 0.875
+mesh = ExtResource("1_hy33b")
+
+[node name="@MeshInstance3D@77094" type="MeshInstance3D" parent="MeshInstance3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.09375, 0)
+instance_shader_parameters/height = 0.9375
+mesh = ExtResource("1_hy33b")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.931577, 0.363544, 0, -0.363544, 0.931577, 0, 0.905842, 2.04348)
