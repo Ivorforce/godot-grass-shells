@@ -12,7 +12,7 @@ shader_parameter/base_color = Color(0.0109276, 0.0354908, 0.00487952, 1)
 shader_parameter/tip_color = Color(0.428075, 0.594343, 0.257212, 1)
 shader_parameter/pixel_size = 0.05
 shader_parameter/height = 0.5
-shader_parameter/shell_count = 100
+shader_parameter/shell_count = 30
 shader_parameter/march_count = 0
 
 [sub_resource type="PlaneMesh" id="PlaneMesh_g61mv"]
@@ -27,81 +27,81 @@ mesh = ExtResource("1_hy33b")
 script = ExtResource("2_2pgn7")
 metadata/_edit_group_ = true
 
-[node name="@MeshInstance3D@150212" type="MeshInstance3D" parent="AutoShell"]
+[node name="@MeshInstance3D@17947" type="MeshInstance3D" parent="AutoShell"]
 instance_shader_parameters/height = 0.0
 mesh = ExtResource("1_hy33b")
 
-[node name="@MeshInstance3D@150213" type="MeshInstance3D" parent="AutoShell"]
+[node name="@MeshInstance3D@17948" type="MeshInstance3D" parent="AutoShell"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0125, 0)
 instance_shader_parameters/height = 0.0625
 mesh = ExtResource("1_hy33b")
 
-[node name="@MeshInstance3D@150214" type="MeshInstance3D" parent="AutoShell"]
+[node name="@MeshInstance3D@17949" type="MeshInstance3D" parent="AutoShell"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.025, 0)
 instance_shader_parameters/height = 0.125
 mesh = ExtResource("1_hy33b")
 
-[node name="@MeshInstance3D@150215" type="MeshInstance3D" parent="AutoShell"]
+[node name="@MeshInstance3D@17950" type="MeshInstance3D" parent="AutoShell"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0375, 0)
 instance_shader_parameters/height = 0.1875
 mesh = ExtResource("1_hy33b")
 
-[node name="@MeshInstance3D@150216" type="MeshInstance3D" parent="AutoShell"]
+[node name="@MeshInstance3D@17951" type="MeshInstance3D" parent="AutoShell"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.05, 0)
 instance_shader_parameters/height = 0.25
 mesh = ExtResource("1_hy33b")
 
-[node name="@MeshInstance3D@150217" type="MeshInstance3D" parent="AutoShell"]
+[node name="@MeshInstance3D@17952" type="MeshInstance3D" parent="AutoShell"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0625, 0)
 instance_shader_parameters/height = 0.3125
 mesh = ExtResource("1_hy33b")
 
-[node name="@MeshInstance3D@150218" type="MeshInstance3D" parent="AutoShell"]
+[node name="@MeshInstance3D@17953" type="MeshInstance3D" parent="AutoShell"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.075, 0)
 instance_shader_parameters/height = 0.375
 mesh = ExtResource("1_hy33b")
 
-[node name="@MeshInstance3D@150219" type="MeshInstance3D" parent="AutoShell"]
+[node name="@MeshInstance3D@17954" type="MeshInstance3D" parent="AutoShell"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0875, 0)
 instance_shader_parameters/height = 0.4375
 mesh = ExtResource("1_hy33b")
 
-[node name="@MeshInstance3D@150220" type="MeshInstance3D" parent="AutoShell"]
+[node name="@MeshInstance3D@17955" type="MeshInstance3D" parent="AutoShell"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1, 0)
 instance_shader_parameters/height = 0.5
 mesh = ExtResource("1_hy33b")
 
-[node name="@MeshInstance3D@150221" type="MeshInstance3D" parent="AutoShell"]
+[node name="@MeshInstance3D@17956" type="MeshInstance3D" parent="AutoShell"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1125, 0)
 instance_shader_parameters/height = 0.5625
 mesh = ExtResource("1_hy33b")
 
-[node name="@MeshInstance3D@150222" type="MeshInstance3D" parent="AutoShell"]
+[node name="@MeshInstance3D@17957" type="MeshInstance3D" parent="AutoShell"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
 instance_shader_parameters/height = 0.625
 mesh = ExtResource("1_hy33b")
 
-[node name="@MeshInstance3D@150223" type="MeshInstance3D" parent="AutoShell"]
+[node name="@MeshInstance3D@17958" type="MeshInstance3D" parent="AutoShell"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1375, 0)
 instance_shader_parameters/height = 0.6875
 mesh = ExtResource("1_hy33b")
 
-[node name="@MeshInstance3D@150224" type="MeshInstance3D" parent="AutoShell"]
+[node name="@MeshInstance3D@17959" type="MeshInstance3D" parent="AutoShell"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.15, 0)
 instance_shader_parameters/height = 0.75
 mesh = ExtResource("1_hy33b")
 
-[node name="@MeshInstance3D@150225" type="MeshInstance3D" parent="AutoShell"]
+[node name="@MeshInstance3D@17960" type="MeshInstance3D" parent="AutoShell"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1625, 0)
 instance_shader_parameters/height = 0.8125
 mesh = ExtResource("1_hy33b")
 
-[node name="@MeshInstance3D@150226" type="MeshInstance3D" parent="AutoShell"]
+[node name="@MeshInstance3D@17961" type="MeshInstance3D" parent="AutoShell"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.175, 0)
 instance_shader_parameters/height = 0.875
 mesh = ExtResource("1_hy33b")
 
-[node name="@MeshInstance3D@150227" type="MeshInstance3D" parent="AutoShell"]
+[node name="@MeshInstance3D@17962" type="MeshInstance3D" parent="AutoShell"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1875, 0)
 instance_shader_parameters/height = 0.9375
 mesh = ExtResource("1_hy33b")
@@ -142,3 +142,4 @@ script = ExtResource("3_eje57")
 
 [node name="Sun" type="DirectionalLight3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 0.258819, 0.965926, 0, -0.965926, 0.258819, 0, 0.84092, 0)
+light_energy = 1.76
