@@ -9,8 +9,8 @@ There is also `auto_grass_shell.gd` and `grass_shell_layer_cuboids.gdshader`, wh
 
 Both run at the same speed. The screenshots show the marcher at 30 steps.
 
-![parallax screenshot](http://img/parallax.png)
+![parallax screenshot](./img/parallax.png)
 
 The march steps approach doesn't work very well. I recommend using just the parallax.
 
-![march screenshot](http://img/march.png)
+![march screenshot](./img/march.png)
