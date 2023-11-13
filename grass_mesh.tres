@@ -1,6 +1,6 @@
 [gd_resource type="PlaneMesh" load_steps=3 format=3 uid="uid://8nr2p53birpo"]
 
-[ext_resource type="Shader" path="res://grass_shell.gdshader" id="1_2jxx6"]
+[ext_resource type="Shader" path="res://grass_shell_layer_cuboids.gdshader" id="1_2jxx6"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_7pdtc"]
 render_priority = 0

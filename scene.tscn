@@ -1,5 +1,7 @@
-[gd_scene load_steps=5 format=3 uid="uid://kqbfd1mgybxc"]
+[gd_scene load_steps=7 format=3 uid="uid://kqbfd1mgybxc"]
 
+[ext_resource type="PlaneMesh" uid="uid://8nr2p53birpo" path="res://grass_mesh.tres" id="1_hy33b"]
+[ext_resource type="Script" path="res://auto_grass_shell.gd" id="2_2pgn7"]
 [ext_resource type="Script" path="res://fps.gd" id="3_eje57"]
 [ext_resource type="Shader" path="res://grass_shell_marcher.gdshader" id="3_v6nfj"]
 
@@ -19,6 +21,91 @@ size = Vector2(400, 400)
 
 [node name="Node3D" type="Node3D"]
 
+[node name="AutoShell" type="MeshInstance3D" parent="."]
+visible = false
+mesh = ExtResource("1_hy33b")
+script = ExtResource("2_2pgn7")
+metadata/_edit_group_ = true
+
+[node name="@MeshInstance3D@150212" type="MeshInstance3D" parent="AutoShell"]
+instance_shader_parameters/height = 0.0
+mesh = ExtResource("1_hy33b")
+
+[node name="@MeshInstance3D@150213" type="MeshInstance3D" parent="AutoShell"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0125, 0)
+instance_shader_parameters/height = 0.0625
+mesh = ExtResource("1_hy33b")
+
+[node name="@MeshInstance3D@150214" type="MeshInstance3D" parent="AutoShell"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.025, 0)
+instance_shader_parameters/height = 0.125
+mesh = ExtResource("1_hy33b")
+
+[node name="@MeshInstance3D@150215" type="MeshInstance3D" parent="AutoShell"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0375, 0)
+instance_shader_parameters/height = 0.1875
+mesh = ExtResource("1_hy33b")
+
+[node name="@MeshInstance3D@150216" type="MeshInstance3D" parent="AutoShell"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.05, 0)
+instance_shader_parameters/height = 0.25
+mesh = ExtResource("1_hy33b")
+
+[node name="@MeshInstance3D@150217" type="MeshInstance3D" parent="AutoShell"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0625, 0)
+instance_shader_parameters/height = 0.3125
+mesh = ExtResource("1_hy33b")
+
+[node name="@MeshInstance3D@150218" type="MeshInstance3D" parent="AutoShell"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.075, 0)
+instance_shader_parameters/height = 0.375
+mesh = ExtResource("1_hy33b")
+
+[node name="@MeshInstance3D@150219" type="MeshInstance3D" parent="AutoShell"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0875, 0)
+instance_shader_parameters/height = 0.4375
+mesh = ExtResource("1_hy33b")
+
+[node name="@MeshInstance3D@150220" type="MeshInstance3D" parent="AutoShell"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1, 0)
+instance_shader_parameters/height = 0.5
+mesh = ExtResource("1_hy33b")
+
+[node name="@MeshInstance3D@150221" type="MeshInstance3D" parent="AutoShell"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1125, 0)
+instance_shader_parameters/height = 0.5625
+mesh = ExtResource("1_hy33b")
+
+[node name="@MeshInstance3D@150222" type="MeshInstance3D" parent="AutoShell"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+instance_shader_parameters/height = 0.625
+mesh = ExtResource("1_hy33b")
+
+[node name="@MeshInstance3D@150223" type="MeshInstance3D" parent="AutoShell"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1375, 0)
+instance_shader_parameters/height = 0.6875
+mesh = ExtResource("1_hy33b")
+
+[node name="@MeshInstance3D@150224" type="MeshInstance3D" parent="AutoShell"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.15, 0)
+instance_shader_parameters/height = 0.75
+mesh = ExtResource("1_hy33b")
+
+[node name="@MeshInstance3D@150225" type="MeshInstance3D" parent="AutoShell"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1625, 0)
+instance_shader_parameters/height = 0.8125
+mesh = ExtResource("1_hy33b")
+
+[node name="@MeshInstance3D@150226" type="MeshInstance3D" parent="AutoShell"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.175, 0)
+instance_shader_parameters/height = 0.875
+mesh = ExtResource("1_hy33b")
+
+[node name="@MeshInstance3D@150227" type="MeshInstance3D" parent="AutoShell"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1875, 0)
+instance_shader_parameters/height = 0.9375
+mesh = ExtResource("1_hy33b")
+
 [node name="ShellGrassMarch" type="Node3D" parent="."]
 
 [node name="ShellGrassMarch" type="MeshInstance3D" parent="ShellGrassMarch"]
@@ -27,19 +114,16 @@ skeleton = NodePath("../..")
 
 [node name="ShellGrassMarch2" type="MeshInstance3D" parent="ShellGrassMarch"]
 visible = false
-instance_shader_parameters/shift = null
 mesh = SubResource("PlaneMesh_g61mv")
 skeleton = NodePath("../..")
 
 [node name="ShellGrassMarch3" type="MeshInstance3D" parent="ShellGrassMarch"]
 visible = false
-instance_shader_parameters/shift = null
 mesh = SubResource("PlaneMesh_g61mv")
 skeleton = NodePath("../..")
 
 [node name="ShellGrassMarch4" type="MeshInstance3D" parent="ShellGrassMarch"]
 visible = false
-instance_shader_parameters/shift = null
 mesh = SubResource("PlaneMesh_g61mv")
 skeleton = NodePath("../..")
 
