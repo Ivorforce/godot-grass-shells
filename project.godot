@@ -14,3 +14,7 @@ config/name="Shell Texturing Test"
 run/main_scene="res://scene.tscn"
 config/features=PackedStringArray("4.1", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/vsync/vsync_mode=0

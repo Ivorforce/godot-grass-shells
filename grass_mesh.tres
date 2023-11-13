@@ -6,8 +6,9 @@
 render_priority = 0
 shader = ExtResource("1_2jxx6")
 shader_parameter/base_color = Color(0.0117647, 0.0352941, 0.00392157, 1)
-shader_parameter/tip_color = Color(0.435294, 0.592157, 0.262745, 1)
+shader_parameter/tip_color = Color(0.427451, 0.596078, 0.258824, 1)
 shader_parameter/pixel_size = 0.02
 
 [resource]
 material = SubResource("ShaderMaterial_7pdtc")
+size = Vector2(400, 400)
